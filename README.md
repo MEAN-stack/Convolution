@@ -5,11 +5,12 @@ Image convolution in Haskell
 ghc -O convolve.hs
 
 ## Run
+```
 ./convolve <filename> <kernel>
 
 filename - input file - Greyscale 8 bits-per-pixel Windows bitmap
 kernel   - 'blur', 'gblur', 'edge', 'sharpen' or 'emboss'
-
+```
 E.g.:
 
 <img src="lotus.bmp" alt="input" width="200"/>
